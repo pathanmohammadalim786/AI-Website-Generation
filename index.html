@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeuroNova AI | Intelligence Beyond Tomorrow</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background -->
+<div class="background-grid"></div>
+<div class="cursor-glow"></div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <div class="logo">
+        <span class="logo-icon">N</span>
+        <div>
+            <strong>NeuroNova</strong>
+            <small>AI LABS</small>
+        </div>
+    </div>
+
+    <button class="menu-btn" id="menuBtn">☰</button>
+
+    <nav id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#explorer">Explore AI</a>
+        <a href="#process">Process</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<!-- HERO -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="status">
+            <span></span>
+            AI SYSTEM ONLINE
+        </div>
+
+        <h1>
+            Intelligence
+            <span>Beyond Tomorrow.</span>
+        </h1>
+
+        <p>
+            NeuroNova AI creates intelligent digital solutions using
+            Artificial Intelligence, Machine Learning and automation
+            to solve real-world problems.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#explorer" class="btn primary">Explore AI →</a>
+            <a href="#solutions" class="btn secondary">View Solutions</a>
+        </div>
+
+        <div class="stats">
+            <div>
+                <strong>AI</strong>
+                <span>Powered</span>
+            </div>
+
+            <div>
+                <strong>ML</strong>
+                <span>Driven</span>
+            </div>
+
+            <div>
+                <strong>∞</strong>
+                <span>Possibilities</span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- AI ORB -->
+    <div class="orb-container">
+
+        <div class="orb">
+            <div class="orb-core">AI</div>
+        </div>
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+
+        <span class="node node-one">ML</span>
+        <span class="node node-two">AI</span>
+        <span class="node node-three">GPT</span>
+    </div>
+
+</section>
+
+
+<!-- MARQUEE -->
+<div class="marquee">
+    <div class="marquee-track">
+        <span>ARTIFICIAL INTELLIGENCE</span>
+        <span>•</span>
+        <span>MACHINE LEARNING</span>
+        <span>•</span>
+        <span>GENERATIVE AI</span>
+        <span>•</span>
+        <span>DATA INTELLIGENCE</span>
+        <span>•</span>
+        <span>AUTOMATION</span>
+        <span>•</span>
+    </div>
+</div>
+
+
+<!-- SOLUTIONS -->
+<section class="section" id="solutions">
+
+    <div class="section-heading">
+        <span>01 / SOLUTIONS</span>
+        <h2>AI That Works<br><em>For You.</em></h2>
+        <p>
+            Intelligent technologies designed to transform ideas
+            into practical digital solutions.
+        </p>
+    </div>
+
+    <div class="solutions-grid">
+
+        <article class="solution-card">
+            <div class="card-number">01</div>
+            <div class="card-icon">⚙</div>
+            <h3>Intelligent Automation</h3>
+            <p>
+                Automate repetitive workflows and improve productivity
+                using intelligent AI systems.
+            </p>
+            <span class="card-link">Explore →</span>
+        </article>
+
+        <article class="solution-card">
+            <div class="card-number">02</div>
+            <div class="card-icon">◈</div>
+            <h3>Predictive AI</h3>
+            <p>
+                Machine learning models that identify patterns and
+                generate useful predictions from data.
+            </p>
+            <span class="card-link">Explore →</span>
+        </article>
+
+        <article class="solution-card">
+            <div class="card-number">03</div>
+            <div class="card-icon">✦</div>
+            <h3>AI Assistants</h3>
+            <p>
+                Smart conversational assistants designed to interact,
+                understand and support users.
+            </p>
+            <span class="card-link">Explore →</span>
+        </article>
+
+        <article class="solution-card">
+            <div class="card-number">04</div>
+            <div class="card-icon">▦</div>
+            <h3>Data Intelligence</h3>
+            <p>
+                Convert complex data into meaningful insights for
+                smarter decisions.
+            </p>
+            <span class="card-link">Explore →</span>
+        </article>
+
+    </div>
+</section>
+
+
+<!-- AI EXPLORER -->
+<section class="section explorer-section" id="explorer">
+
+    <div class="section-heading">
+        <span>02 / AI EXPLORER</span>
+        <h2>Where Can AI<br><em>Make an Impact?</em></h2>
+    </div>
+
+    <div class="explorer">
+
+        <div class="industry-buttons">
+
+            <button class="industry active" data-industry="education">
+                🎓 Education
+            </button>
+
+            <button class="industry" data-industry="healthcare">
+                🏥 Healthcare
+            </button>
+
+            <button class="industry" data-industry="business">
+                💼 Business
+            </button>
+
+            <button class="industry" data-industry="agriculture">
+                🌱 Agriculture
+            </button>
+
+            <button class="industry" data-industry="transport">
+                🚗 Transportation
+            </button>
+
+        </div>
+
+        <div class="explorer-result">
+
+            <div class="result-icon" id="resultIcon">🎓</div>
+
+            <div>
+                <span id="resultLabel">AI APPLICATION</span>
+
+                <h3 id="resultTitle">
+                    Personalized Learning
+                </h3>
+
+                <p id="resultDescription">
+                    AI can analyze student performance and recommend
+                    personalized learning resources and study paths.
+                </p>
+            </div>
+
+            <div class="result-arrow">↗</div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- PROCESS -->
+<section class="section process-section" id="process">
+
+    <div class="section-heading">
+        <span>03 / OUR PROCESS</span>
+        <h2>From Idea<br><em>to Intelligence.</em></h2>
+    </div>
+
+    <div class="process-grid">
+
+        <div class="process-item">
+            <span>01</span>
+            <h3>Discover</h3>
+            <p>Understand the problem, users and business requirements.</p>
+        </div>
+
+        <div class="process-item">
+            <span>02</span>
+            <h3>Design</h3>
+            <p>Create an intelligent solution architecture and user experience.</p>
+        </div>
+
+        <div class="process-item">
+            <span>03</span>
+            <h3>Develop</h3>
+            <p>Build and integrate AI-powered technologies into the solution.</p>
+        </div>
+
+        <div class="process-item">
+            <span>04</span>
+            <h3>Improve</h3>
+            <p>Analyze results and continuously improve the system.</p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ABOUT -->
+<section class="section about-section" id="about">
+
+    <div class="about-grid">
+
+        <div>
+            <span class="section-label">04 / ABOUT</span>
+
+            <h2>
+                Building a smarter
+                <em>digital future.</em>
+            </h2>
+        </div>
+
+        <div>
+            <p>
+                NeuroNova AI is a concept platform created to demonstrate
+                how AI technologies can be used to build modern,
+                intelligent and user-focused digital experiences.
+            </p>
+
+            <p>
+                From machine learning and predictive analytics to
+                automation and generative AI, our goal is to explore
+                practical applications of emerging technologies.
+            </p>
+
+            <div class="tech-tags">
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>AI</span>
+                <span>Data Science</span>
+                <span>Automation</span>
+                <span>Web Technology</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- CONTACT -->
+<section class="section contact-section" id="contact">
+
+    <div class="contact-box">
+
+        <div>
+            <span class="section-label">05 / CONTACT</span>
+
+            <h2>
+                Have an idea?
+                <em>Let's build it.</em>
+            </h2>
+
+            <p>
+                Tell us about your idea and explore how AI can help
+                transform it into a practical solution.
+            </p>
+        </div>
+
+
+        <form id="contactForm">
+
+            <div class="form-row">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Email Address"
+                    required
+                >
+
+            </div>
+
+            <select id="service" required>
+
+                <option value="">
+                    Select AI Solution
+                </option>
+
+                <option>Machine Learning</option>
+                <option>AI Automation</option>
+                <option>AI Assistant</option>
+                <option>Data Intelligence</option>
+                <option>Generative AI</option>
+
+            </select>
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Tell us about your idea..."
+                required
+            ></textarea>
+
+            <button type="submit" class="btn primary">
+                Send Inquiry →
+            </button>
+
+            <div id="formMessage"></div>
+
+        </form>
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-logo">
+        NeuroNova <span>AI LABS</span>
+    </div>
+
+    <p>
+        Exploring intelligence. Building possibilities.
+    </p>
+
+    <div class="footer-bottom">
+        <span>© <span id="year"></span> NeuroNova AI</span>
+        <span>AI Web Development Internship – Task 3</span>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
